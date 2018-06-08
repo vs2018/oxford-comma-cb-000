@@ -5,4 +5,5 @@ def oxford_comma(array)
     result << word if (index + 1) % 2 != 0
     result << ", " if (index + 1) % 2 == 0
   end
+  return result
 end
