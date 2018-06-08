@@ -3,7 +3,7 @@ def oxford_comma(array)
   array.each_with_index do |word, index|
     
     result << word
-    result << ", " if (index + 1) % 2 == 0
+    result << ", "
   end
   return result
 end
