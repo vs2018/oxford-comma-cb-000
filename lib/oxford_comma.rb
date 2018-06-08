@@ -1,7 +1,7 @@
 def oxford_comma(array)
-  result = ""
-  array.each do |word|
+  
+  array.each_with_index do |word, index|
     
-    result << word
+    result << word if (index + 1) % 2 == 0
   end
 end
